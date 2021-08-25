@@ -1,0 +1,11 @@
+@import "./variables";
+@import "./mixins";
+@import "./breakpoints";
+
+// Global css rules
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}

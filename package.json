@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.38.1"
+  },
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "Mise en place d'un site de restauration permettant de composer son menu directement en ligne",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:.public/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuuusuuke/VincentAllio_3_25082021.git"
+  },
+  "author": "Vincent Allio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuuusuuke/VincentAllio_3_25082021/issues"
+  },
+  "homepage": "https://github.com/Yuuusuuke/VincentAllio_3_25082021#readme"
+}
