@@ -7,3 +7,4 @@
 - Structuration des fichiers sass, html et css
 - Ajout des règles globales css
 - Ajout d'autoprefixer
+- Ajout des meta tags et script FA dans le html
