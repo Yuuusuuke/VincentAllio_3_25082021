@@ -5,6 +5,7 @@
 - Ajout des ressources pour le projet
 - Ajout du Header et du Footer
 - Ajout des polices et des couleurs de la charte graphique
+- Ajout des pages des restaurants avec uniquement le header et le footer
 
 ## 25/08/2021 Update
 
