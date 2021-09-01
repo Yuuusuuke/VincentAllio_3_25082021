@@ -3,6 +3,9 @@
 ## 01/09/2021 Update
 
 - Ajout du lien contact sur le footer
+- Modification de la barre de recherche, qui maintenant correspond à la maquette mais n'est plus un input
+- Ajout de la zone de description
+- Ajout d'une transition sur le bouton de la zone de description
 
 ## 27/08/2021 Update
 

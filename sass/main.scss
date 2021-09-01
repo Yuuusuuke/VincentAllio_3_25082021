@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+body {
+    min-height: 100vh;
+}
+
 /* - - - Header - - - */
 .header {
     @include centerElement;
@@ -23,31 +27,54 @@
 
 /* - - - Search Bar - - - */
 .searchBar {
-    position: relative;
+    @include centerElement;
+    height: 50px;
+    color: #353535;
+    cursor: text;
 
     &__icon {
-        position: absolute;
-        color: #353535;
-        top: 50%;
-        left: 25%;
-        transform: translate(0, -50%);
-        font-size: 1em;
-        transition: left 1s ease;
+        margin-right: 1em;
     }
 
-    &__input {
-        background: #eaeaea;
-        color: #353535;
-        height: 50px;
-        width: 100%;
-        border: 0;
-        text-align: center;
-        font-size: 14px;
-        font-weight: bold;
+    &__text {
+        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+/* - - - Description - - - */
+.description {
+    background: #f6f6f6;
+    padding: 45px 2em 57px 2em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+    &__title {
+        font-size: 1.5em;
+        font-weight: 800;
     }
 
-    &__input:focus~&__icon {
-        left: 10px;
+    &__text {
+        font-size: 1.125em;
+        font-weight: 300;
+        margin: 1em 0 2em 0;
+    }
+
+    &__button {
+        font-size: 1.1em;
+        background-image: linear-gradient(0deg, $colorPrimary, $colorSecondary);
+        padding: 1em 1.5em;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+        cursor: pointer;
+        transition: all .25s ease;
+
+    }
+
+    &__button:hover {
+        box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+        filter: brightness(1.1);
     }
 }
 
