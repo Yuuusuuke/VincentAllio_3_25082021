@@ -1,5 +1,14 @@
 # Changelog Projet 3
 
+## 01/09/2021 Update
+
+- Ajout du lien contact sur le footer
+
+## 27/08/2021 Update
+
+- Ajout de la barre de recherche
+- Ajout de la transition pour l'icône de la search bar
+
 ## 26/08/2021 Update
 
 - Ajout des ressources pour le projet
