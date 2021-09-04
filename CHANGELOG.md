@@ -1,5 +1,10 @@
 # Changelog Projet 3
 
+## 05/09/2021 Update
+
+- Modification du dégradé du bouton Explorer
+- Ajout de la partie Fonctionnement avec les étapes cliquables
+
 ## 01/09/2021 Update
 
 - Ajout du lien contact sur le footer
