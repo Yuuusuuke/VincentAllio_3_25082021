@@ -95,6 +95,7 @@ body {
         box-shadow: 0.25rem 0.25rem 10px #e4e4e4;
         background: white;
         cursor: pointer;
+        transition: all .25s ease;
 
         &__icon{  
             color: #7e7e7e;
@@ -102,6 +103,7 @@ body {
             width: 20px;
             @include centerElement;
             display: flex !important;
+            transition: all .25s ease;
         }
 
         &__text{
