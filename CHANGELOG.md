@@ -3,6 +3,8 @@
 ## 06/09/2021 Update
 
 - Ajout d'un loader avec la couleur principale et la couleur secondaire de la charte graphique
+- Réarrangement des fichiers du projets (structure 7-1)
+- Position fixe pour le loader
 
 ## 05/09/2021 Update
 
