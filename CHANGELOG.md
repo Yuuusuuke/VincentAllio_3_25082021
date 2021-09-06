@@ -1,5 +1,9 @@
 # Changelog Projet 3
 
+## 06/09/2021 Update
+
+- Ajout d'un loader avec la couleur principale et la couleur secondaire de la charte graphique
+
 ## 05/09/2021 Update
 
 - Modification du dégradé du bouton Explorer
