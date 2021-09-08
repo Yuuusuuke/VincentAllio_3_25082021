@@ -1,5 +1,10 @@
 # Changelog Projet 3
 
+## 08/09/2021 Update
+
+- Ajout de la zone Restaurants
+- Ajout des images et des icones
+
 ## 06/09/2021 Update
 
 - Ajout d'un loader avec la couleur principale et la couleur secondaire de la charte graphique

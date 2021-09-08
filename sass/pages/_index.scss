@@ -48,7 +48,7 @@
         filter: brightness(1.1);
     }
 }
-
+/* - - - Explaination - - - */
 .explaination{
     font-family: "Roboto", sans-serif;
     margin: 50px 5%;
@@ -102,6 +102,62 @@
         }
         &:hover &__icon{
             color: $colorPrimary;
+        }
+    }
+}
+
+/* - - - Restaurants - - - */
+.restaurants{
+    background: #f6f6f6;
+    padding: 55px 5%;
+    font-family: "Roboto", sans-serif;
+
+    &__title{
+        @include titles;
+        margin-bottom: 25px;
+    }
+
+    &__card{
+        border-radius: 20px;
+        box-shadow: 0.25rem 0.25rem 10px #e4e4e4;
+        margin-bottom: 18px;
+        &__image{
+            height: 175px;
+            object-fit: cover;
+            object-position: bottom;
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+        }
+
+        &__description.cards{
+            padding: 20px 14px;
+            position: relative;
+
+            .cards__title{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .cards__sub{
+                margin-top: 5px;
+                font-size: 17px;
+            }
+
+            & .fa-heart{
+                position: absolute;
+                right: 8%;
+                top: 30px;
+                font-size: 20px;
+            }
+
+            & .fas{
+                opacity: 0;
+                background: linear-gradient(190deg, $colorPrimary, $colorSecondary);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                &:hover{
+                    opacity: 1;
+                }
+            }
         }
     }
 }
