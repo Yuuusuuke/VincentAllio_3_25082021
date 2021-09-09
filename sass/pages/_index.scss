@@ -124,7 +124,7 @@
         &__image{
             height: 175px;
             object-fit: cover;
-            object-position: bottom;
+            object-position: center;
             width: 100%;
             border-radius: 20px 20px 0 0;
         }
@@ -150,13 +150,16 @@
             }
 
             & .fas{
-                opacity: 0;
                 background: linear-gradient(190deg, $colorPrimary, $colorSecondary);
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
-                &:hover{
-                    opacity: 1;
-                }
+                z-index: 1;
+                animation: popin .5s ease both;
+                animation-play-state: paused;
+            }
+            & .far:active ~ .fas,
+            & .fas:active{
+                animation-play-state: running;
             }
         }
     }
