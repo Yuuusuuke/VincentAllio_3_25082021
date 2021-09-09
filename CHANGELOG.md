@@ -1,10 +1,13 @@
 # Changelog Projet 3
 
+## 09/09/2021 Update
+
+- Ajout de l'animation des icones "like"
+
 ## 08/09/2021 Update
 
 - Ajout de la zone Restaurants
 - Ajout des images et des icones
-- Ajout de l'animation des icones "like" (:active)
 
 ## 06/09/2021 Update
 

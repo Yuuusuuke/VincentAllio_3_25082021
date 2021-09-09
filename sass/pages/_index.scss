@@ -145,8 +145,8 @@
             & .fa-heart{
                 position: absolute;
                 right: 8%;
-                top: 30px;
-                font-size: 20px;
+                top: 24px;
+                font-size: 32px;
             }
 
             & .fas{
@@ -157,8 +157,8 @@
                 animation: popin .5s ease both;
                 animation-play-state: paused;
             }
-            & .far:active ~ .fas,
-            & .fas:active{
+            & .far:hover ~ .fas,
+            & .fas:hover{
                 animation-play-state: running;
             }
         }
