@@ -3,6 +3,7 @@
 ## 10/09/2021 Update
 
 - Ajout de l'encadré "Nouveau" sur les restaurants
+- Ajout du responsive pour la page d'accueil
 
 ## 09/09/2021 Update
 
