@@ -1,5 +1,9 @@
 # Changelog Projet 3
 
+## 10/09/2021 Update
+
+- Ajout de l'encadré "Nouveau" sur les restaurants
+
 ## 09/09/2021 Update
 
 - Ajout de l'animation des icones "like"

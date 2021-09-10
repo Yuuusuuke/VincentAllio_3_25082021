@@ -118,6 +118,7 @@
     }
 
     &__card{
+        position: relative;
         border-radius: 20px;
         box-shadow: 0.25rem 0.25rem 10px #e4e4e4;
         margin-bottom: 18px;
@@ -161,6 +162,22 @@
             & .fas:hover{
                 animation-play-state: running;
             }
+        }
+
+        &--new::before{
+            position: absolute;
+            right: 11px;
+            top: 11px;
+            @include centerElement;
+            width: 81px;
+            height: 29px;
+            border-radius: 2px;
+            content: "Nouveau";
+            background: $colorTertiary;
+            color: darken($colorTertiary, 40%);
+            font-size: 14px;
+            font-weight: bold;
+            
         }
     }
 }
