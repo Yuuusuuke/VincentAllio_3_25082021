@@ -4,7 +4,7 @@
         <!-- Meta tags -->
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./public/css/prefixed/style.css"/>
+        <link rel="stylesheet" href="../public/css/prefixed/style.css"/>
 
         <title>Projet 3 - OhMyFood- Le délice des sens</title>
 
@@ -12,14 +12,24 @@
     </head>
     <body>
         <!-- Header -->
-        <header>
-            <img class="header__logo" src="Ressources/images/logo/ohmyfood@2x.svg" alt="logo OhMyFood"/>
+        <header class="header header--no-shadow">
+            <a class="header__return" href="../index.html">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <img class="header__logo" src="../Ressources/images/logo/ohmyfood@2x.svg" alt="logo OhMyFood"/>
         </header>
 
         <!--     Content     -->
+        <main class="main">
+            <img class="imageRestaurant" src="../Ressources/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="image Le délice des sens" />
+
+            <div class="menu">
+                <div class="menu__title">Le délice des sens</div>
+            </div>
+        </main>
 
         <!-- Footer -->
-        <footer>
+        <footer class="footer">
             <div class="footer__logo"></div>
             <div class="footer__links">
                 <a href="#">
@@ -31,7 +41,7 @@
                     Devenir partenaire
                 </a>
                 <a href="#">Mentions légales</a>
-                <a href="#">Contact</a>
+                <a href="mailto:contact@ohmyfood.fr">Contact</a>
             </div>
         </footer>
 

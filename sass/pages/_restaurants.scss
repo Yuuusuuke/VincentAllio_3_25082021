@@ -1,0 +1,24 @@
+.imageRestaurant{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* - - - Menu - - - */
+.menu{
+    padding-top: 34px;
+    margin-top: -2em;
+    position: relative;
+    z-index: 1;
+    border-radius: 2em 2em 0 0;
+    background: #f7f7f7;
+
+    &__title{
+        font-family: "Shrikhand";
+        font-size: 28px;
+        padding-left: 5%;
+        padding-bottom: 40px;
+    }
+}

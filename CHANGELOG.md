@@ -1,5 +1,11 @@
 # Changelog Projet 3
 
+## 13/09/2021 Update
+
+- Ajout de la flèche retour sur les pages restaurants
+- Ajout des images de fond
+- Ajout de la div menu sur les pages restaurants
+
 ## 10/09/2021 Update
 
 - Ajout de l'encadré "Nouveau" sur les restaurants
