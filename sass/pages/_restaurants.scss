@@ -8,8 +8,8 @@
 
 /* - - - Menu - - - */
 .menu{
-    padding-top: 34px;
-    margin-top: -2em;
+    padding: 34px 4% 0 4%;
+    top: -2em;
     position: relative;
     z-index: 1;
     border-radius: 2em 2em 0 0;
@@ -19,6 +19,95 @@
         font-family: "Shrikhand";
         font-size: 28px;
         padding-left: 5%;
-        padding-bottom: 40px;
+        padding-bottom: 35px;
+    }
+
+    & .fa-heart{
+        top: 34px;
+        right: 10%;
+    }
+
+    &__list{
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 45px;
+        &__title{
+            text-transform: uppercase;
+            margin-left: 6px;
+            padding-bottom: 9px;
+            font-size: 18px;
+            font-weight: 400;
+            position: relative;
+
+            &::after{
+                content: "";
+                position: absolute;
+                height: 3px;
+                width: 40px;
+                bottom: 0;
+                left: 0;
+                background: $colorTertiary;
+            }
+        }
+
+        
+
+        &__card{
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0.25rem 0.25rem 10px #e4e4e4;
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+            max-width: 450px;
+            white-space: nowrap;
+            margin-top: 14px;
+
+            &__text{
+                flex: 1;
+                padding: 15px 0 15px 10px;
+                min-width: 0;
+                
+                &__title{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    margin-bottom: 7px;
+                }
+                &__description{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    
+                }
+            }
+            
+            &__price{
+                align-self: flex-end;
+                margin-right: 20px;
+                padding-bottom: 15px;
+                font-weight: bold;
+            }
+
+            &__check{
+                background: #9ae3d1;
+                margin-right: -60px;
+                width: 59px;
+                border-radius: 0 20px 20px 0;
+                font-size: 20px;
+                color: white;
+                @include centerElement;
+                transition: all .5s ease;
+                
+                & i{
+                    transform: rotate(180deg);
+                    transition: all .7s ease;
+                }
+            }
+
+            &:hover &__check{
+                margin: 0;
+            }
+            &:hover &__check i{
+                transform: rotate(0);
+            }
+        }
     }
 }

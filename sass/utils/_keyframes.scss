@@ -30,3 +30,12 @@
     transform: scale(1.05);
   }
 }
+
+@keyframes slideLeft{
+  0%{
+    transform: translate(60px, 0);
+  }
+  100%{
+    transform: translate(0,0);
+  }
+}

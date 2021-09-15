@@ -182,27 +182,6 @@
                 margin-top: 5px;
                 font-size: 17px;
             }
-
-            & .fa-heart{
-                position: absolute;
-                right: 8%;
-                top: 24px;
-                font-size: 32px;
-                cursor: pointer;
-            }
-
-            & .fas{
-                background: linear-gradient(190deg, $colorPrimary, $colorSecondary);
-                background-clip: text;
-                -webkit-text-fill-color: transparent;
-                z-index: 1;
-                animation: popin .5s ease both;
-                animation-play-state: paused;
-            }
-            & .far:hover ~ .fas,
-            & .fas:hover{
-                animation-play-state: running;
-            }
         }
 
         &--new::before{

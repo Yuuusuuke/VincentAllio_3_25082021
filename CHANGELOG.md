@@ -1,5 +1,10 @@
 # Changelog Projet 3
 
+## 15/09/2021 Update
+
+- Ajout de la liste des plats pour chaque restaurant
+- Ajout d'une transition au survole d'un plat
+
 ## 13/09/2021 Update
 
 - Ajout de la flèche retour sur les pages restaurants
