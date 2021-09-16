@@ -1,5 +1,9 @@
 # Changelog Projet 3
 
+## 16/09/2021 Update
+
+- Ajout du responsive sur les pages des restaurants
+
 ## 15/09/2021 Update
 
 - Ajout de la liste des plats pour chaque restaurant

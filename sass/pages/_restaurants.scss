@@ -90,6 +90,14 @@
             white-space: nowrap;
             margin-top: 14px;
 
+            animation: slideup 1s ease both;
+            @for $i from 1 through 10{ // Space circles as a big common circle and delay animation to make a "spin"
+                &.delay-#{$i}{
+                        animation-delay: calc(0.1s * #{$i});
+                }
+
+            }
+
             @include for-size(tablet_portrait){
                 width: 450px;
             }
