@@ -7,6 +7,9 @@
 }
 
 .main--restaurant{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     @include for-size(tablet_portrait){
         display: flex;
         flex-direction: column;
@@ -21,7 +24,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    flex: 1;
     border-radius: 2em 2em 0 0;
     background: #f7f7f7;
 
