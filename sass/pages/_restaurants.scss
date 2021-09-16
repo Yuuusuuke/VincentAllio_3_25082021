@@ -7,13 +7,17 @@
 }
 
 .main--restaurant{
-    background: #f7f7f7;
+    @include for-size(tablet_portrait){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* - - - Menu - - - */
 .menu{
     padding: 34px 4% 0 4%;
-    top: -2em;
+    margin-top: -2em;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -21,11 +25,21 @@
     border-radius: 2em 2em 0 0;
     background: #f7f7f7;
 
+    @include for-size(tablet_landscape){
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     &__title{
         font-family: "Shrikhand";
         font-size: 28px;
         padding-left: 5%;
         padding-bottom: 35px;
+        
+        @include for-size(tablet_landscape){
+            width: 100%;
+        }
     }
 
     & .fa-heart{
@@ -36,6 +50,15 @@
     &__list{
         font-family: "Roboto", sans-serif;
         margin-bottom: 45px;
+
+        @include for-size(tablet_landscape){
+            margin-left: 5%;
+        }
+
+        &--noMarginLeft{
+            margin-left: 0;
+        }
+
         &__title{
             text-transform: uppercase;
             margin-left: 6px;
@@ -64,9 +87,20 @@
             display: flex;
             justify-content: space-between;
             overflow: hidden;
-            max-width: 450px;
             white-space: nowrap;
             margin-top: 14px;
+
+            @include for-size(tablet_portrait){
+                width: 450px;
+            }
+
+            @include for-size(tablet_landscape){
+                width: 315px;
+            }
+
+            @include for-size(desktop){
+                width: 450px;
+            }
 
             &__text{
                 flex: 1;
@@ -87,6 +121,7 @@
             
             &__price{
                 align-self: flex-end;
+                margin-left: 5px;
                 margin-right: 20px;
                 padding-bottom: 15px;
                 font-weight: bold;
@@ -123,5 +158,9 @@
         padding: 1em 49px;
         margin-top: 5px;
         margin-bottom: 60px;
+
+        @include for-size(tablet_landscape){
+            margin: 5px 25% 60px 25%;
+        }
     }
 }

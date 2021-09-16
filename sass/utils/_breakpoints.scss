@@ -1,6 +1,7 @@
 $breakpoints: (
     tablet_portrait: 768px,
-    tablet_landscape: 1200px
+    tablet_landscape: 1200px,
+    desktop: 1727px
 );
 
 @mixin for-size($range){
