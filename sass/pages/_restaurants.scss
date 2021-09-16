@@ -6,11 +6,17 @@
     object-position: center;
 }
 
+.main--restaurant{
+    background: #f7f7f7;
+}
+
 /* - - - Menu - - - */
 .menu{
     padding: 34px 4% 0 4%;
     top: -2em;
     position: relative;
+    display: flex;
+    flex-direction: column;
     z-index: 1;
     border-radius: 2em 2em 0 0;
     background: #f7f7f7;
@@ -23,8 +29,8 @@
     }
 
     & .fa-heart{
-        top: 34px;
-        right: 10%;
+        top: 40px;
+        font-size: 28px;
     }
 
     &__list{
@@ -109,5 +115,13 @@
                 transform: rotate(0);
             }
         }
+    }
+
+    &__button{
+        align-self: center;
+        width: auto;
+        padding: 1em 49px;
+        margin-top: 5px;
+        margin-bottom: 60px;
     }
 }
